@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx}',
-    './src/components/**/*.{js,ts,jsx,tsx}',
-    './src/app/**/*.{js,ts,jsx,tsx}',
-  ],
+	content: [
+    	'./src/pages/**/*.{js,ts,jsx,tsx}',
+		'./src/components/**/*.{js,ts,jsx,tsx}',
+		'./src/app/**/*.{js,ts,jsx,tsx}',
+  	],
 
-  darkMode: 'class',
+  	darkMode: 'class',
 
-  theme: {
+  	theme: {
 
 	  extend: {
 		
@@ -16,11 +16,11 @@ module.exports = {
 			  'sanFrancisco': "url('/img/sanFrancisco.jpg')",
 			  'sanFranciscoDesktop': "url('/img/sanFranciscoDesktop.jpg')",
 			  'yosemite': "url('/img/yosemite.jpg')",
-			  'LA': "url('/img/LA.jpg')",
+			  'los_angeles': "url('/img/LA.jpg')",
 			  'seattle': "url('/img/seattle.jpg')",
 			  'new_york': "url('/img/new_york.jpg')",
 			  'norway': "url('/img/norway.jpg')",
-			  'sydney': "url('/img/sydney.jpg')",
+			  'sidney': "url('/img/sydney.jpg')",
 			  'miami': "url('/img/miami.jpg')",
 			  'switzerland': "url('/img/switzerland.jpg')",
 			  'bali': "url('/img/bali.jpg')",
@@ -47,13 +47,13 @@ module.exports = {
 				Montserrat: ["Montserrat", "sans-serif"],
 			},		
 		},
-},
+	},
 
-variants: {
+	variants: {
 		width: ["responsive", "hover", "focus"],
 		extend: {
 	 },
-},
+	},
 
-plugins: [],
+	plugins: [],
 }
