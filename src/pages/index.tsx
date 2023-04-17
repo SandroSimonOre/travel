@@ -5,6 +5,7 @@ import { Recommended } from "@/components/recommended"
 import { Featured } from "@/components/featured"
 import { Faqs } from "@/components/faqs"
 import { TabBar } from "@/components/tabBar"
+import { Footer } from "@/components/footer"
 
 export default function Home() {
 
@@ -14,7 +15,9 @@ export default function Home() {
       <Recommended />
       <Featured />
       <Faqs />
+      <Footer />
       <TabBar />
+
     </main>
   )
 }
