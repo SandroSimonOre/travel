@@ -9,6 +9,13 @@ import { Footer } from "@/components/footer"
 
 export default function Home() {
 
+  
+  const toggleDarkMode = () => {
+    document.documentElement.classList.contains("dark") ? 
+    document.documentElement.classList.remove("dark") : 
+    document.documentElement.classList.add("dark")
+  }
+
   return (
     <main className="">
       <Hero />
@@ -16,7 +23,7 @@ export default function Home() {
       <Featured />
       <Faqs />
       <Footer />
-      <TabBar />
+      <TabBar toggle={toggleDarkMode} />
 
     </main>
   )
