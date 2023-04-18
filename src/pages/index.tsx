@@ -1,5 +1,6 @@
 //import { Inter } from 'next/font/google'
 //const inter = Inter({ subsets: ['latin'] })
+import { NavBar } from "@/components/navBar"
 import { Hero } from "@/components/hero"
 import { Recommended } from "@/components/recommended"
 import { Featured } from "@/components/featured"
@@ -17,7 +18,8 @@ export default function Home() {
   }
 
   return (
-    <main className="">
+    <main className="dark:bg-gray-900">
+      <NavBar />
       <Hero />
       <Recommended />
       <Featured />
