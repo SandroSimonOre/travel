@@ -18,8 +18,8 @@ export default function Home() {
   }
 
   return (
-    <main className="dark:bg-gray-900">
-      <NavBar />
+    <main className="dark:bg-gray-900 w-auto h-screen">
+      <NavBar toggle={toggleDarkMode} />
       <Hero />
       <Recommended />
       <Featured />
