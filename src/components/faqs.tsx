@@ -28,8 +28,8 @@ const data = [
 
 export const Faqs = () => {
     return (
-        <div className="w-full h-full lg:px-8" id="faqs">
-				<div className="w-full h-full px-6 flex flex-col space-y-4">
+        <div className="w-full h-full lg:px-6" id="faqs">
+				<div className="w-full h-full px-6 flex flex-col space-y-4 lg:px-0">
 					<p className="text-3xl font-semibold text-principal lg:text-5xl lg:pb-4 dark:text-white">FAQS</p>
 					{
                         data.map(item => (

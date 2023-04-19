@@ -27,7 +27,7 @@ const featured = [
 
 export const Featured = () => {
     return (
-        <div className="px-6 h-full lg:px-14" id="rentas_destacadas">
+        <div className="px-6 h-full lg:h-auto" id="rentas_destacadas">
             <p className="text-3xl font-semibold text-principal pb-6 dark:text-white">Estancias destacadas</p>
             <div className="w-full h-full flex flex-col items-center justify-center lg:grid lg:grid-cols-3 lg:grid-rows-[repeat(3,_24rem)] lg:gap-6 lg:h-full">
                 {

@@ -10,8 +10,8 @@ const data = [
 
 export const Recommended = () => {
     return (
-        <div className="w-full h-auto lg:px-2">
-            <div className="p-6" id="recomendados">
+        <div className="w-full h-auto lg:px-6">
+            <div className="py-6" id="recomendados">
             <p className="text-3xl font-semibold text-principal  dark:text-white">Recomendados</p>
             <div className="w-auto h-80 lg:h-80 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-4 lg:space-x-6 scrollbar">
                 
