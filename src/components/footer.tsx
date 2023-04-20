@@ -4,9 +4,9 @@ import { GoMarkGithub } from 'react-icons/go'
 
 export const Footer = () => {
     return (
-        <footer className="w-full h-auto bg-black p-6 mt-8 mb-24 space-y-2 lg:px-14 " id="nosotros">
+        <footer className="w-full h-auto bg-black p-6 mt-8 mb-24 space-y-2 lg:px-14" id="nosotros">
             
-            <div className='flex flex-col py-12 lg:flex-row lg:justify-around'>
+            <div className='grid grid-cols-2 lg:flex py-12 lg:flex-row lg:justify-around'>
                 {
                     [
                         'Inversionistas',
