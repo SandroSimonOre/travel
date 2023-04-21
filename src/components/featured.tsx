@@ -29,10 +29,10 @@ export const Featured = () => {
     return (
         <div className="px-6 h-auto lg:h-auto" id="rentas_destacadas">
             <p className="text-3xl font-semibold text-principal pb-6 dark:text-white">Estancias destacadas</p>
-            <div className="w-full h-auto flex flex-col items-center justify-center lg:grid lg:grid-cols-3 lg:grid-rows-[repeat(3,_24rem)] lg:gap-6">
+            <div className="w-full h-auto flex flex-col items-center justify-center lg:grid lg:grid-cols-3 lg:grid-rows-[repeat(3,_24rem)] gap-6">
                 {
                     featured.map(item => (
-                        <div key={item.bg} className={`w-full h-48 ${item.bg} bg-cover rounded-2xl mb-8 ${item.span} lg:bg-center lg:h-full`}>
+                        <div key={item.bg} className={`w-full h-48 ${item.bg} bg-cover rounded-2xl ${item.span} lg:bg-center lg:h-full`}>
                             <p className="text-3xl px-8 pt-8 pb-1 font-semibold text-white">{item.title}</p>
                             <p className="text-md pl-8 text-white mr-24">{item.description}</p>
                         </div>
